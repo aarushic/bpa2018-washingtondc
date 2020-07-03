@@ -1,0 +1,647 @@
+*
+{
+margin: 0;
+ padding: 0px;
+    
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/*-----Navigation*-----*/
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li 
+{
+    padding:0 10px;
+}
+
+.navbar-nav li a
+{
+    float:right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color:#007bff!important;
+}
+
+.navbar
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none!important;
+    
+}
+
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*---Slider-----*/
+#slider
+{
+    width: 100%;
+}
+
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px
+}
+
+
+
+
+/**----About-----*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+img 
+{
+    vertical-align: middle;
+}
+
+/*-----Attractions----*/
+
+#price
+{
+    padding: 40px;
+    background: #f9f2ec;
+}
+
+
+#price h1
+{
+    text-align: center;
+    color: #737373 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#price h1::after
+{
+    content: '';
+    background: #737373;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover{
+    
+box-shadow: 0 2px 20px #333;
+}
+
+.price-head
+{
+    background-color: #0C2340;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%
+}
+
+.price-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5-x;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+.price-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#price span
+{
+    font-size: 15px;
+}
+
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.price-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+
+#mapouter
+{
+    display: left;
+}
+/*-----Food----*/
+
+#food
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f9f2ec;
+}
+
+#food h1
+{
+    text-align: center;
+    color: #000000 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#food h1::after
+{
+    content: '';
+    background: #000000;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+#food .row
+{
+    margin-top: 70px;
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+    
+}
+
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+}
+
+.user 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%
+}
+.profile img
+{
+    top:-60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid #fff;
+}
+
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+}
+
+#food span
+{
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+/*-----Transportation----*/
+
+#transportation
+{
+    padding: 40px;
+    background: #f9f2ec;
+}
+
+#transportation h1
+{
+    text-align: center;
+    color: #737373 !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#transportation h1::after
+{
+    content: '';
+    background: #737373;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+
+.single-transportation
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-transportation:hover{
+    
+box-shadow: 0 2px 20px #333;
+}
+
+.transportation-head
+{
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%
+}
+
+.transportation-head h2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5-x;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+
+.transportation-head p
+{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#transportation span
+{
+    font-size: 15px;
+}
+
+.transportation-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.transportation-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.icon
+{
+    color: #fff
+}
+
+/*-----Food----*/
+#food
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#food h1
+{
+    text-align: center;
+    color: #737373 !important;
+    padding-bottom: 10px;
+}
+
+#food h1::after
+{
+    content: '';
+    background: #737373;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#food .row
+{
+    margin-top: 30px;
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+    
+}
+
+.profile
+{
+    padding: 80px 10px 10px;
+    background-color: #f9f2ec;
+}
+
+.user 
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%
+}
+.profile img
+{
+    top:-60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 5px solid #fff;
+}
+
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #E4002B;
+}
+
+#food span
+{
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+/*-----Attire----*/
+
+#attire
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f9f2ec;
+    text-align: center;
+    color: #737373;
+}
+
+
+#attire h1::after
+{
+    content: '';
+    background: #737373;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.dress-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+    color: black;
+}
+
+#attire h3
+{
+    background: #0C2340;
+    display: inline;
+    float: left;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+
+}
+
+
+
+.dress-content:hover{
+    
+box-shadow: 0 2px 20px #333;
+}
+
+.dress-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.dress-content ul li
+{
+    border-bottom: 1px solid #000000;
+    padding: 15px 10px;
+    list-style: none;
+}
+.dress-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+
+
+.attire
+{
+    margin-top: 40px;
+}
+
+
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width 80px;
+}
+
+#attire p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+
+
+
+
+/*----Our Team----*/
+
+
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f9f2ec;
+}
+
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#team h1
+{
+    text-align: center;
+    color: #737373 !important;
+    padding-bottom: 10px;
+}
+
+#team h1::after
+{
+    content: '';
+    background: #737373;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.message h3
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #E4002B;
+}
+
+.message:hover
+{
+    box-shadow: 0 0 15px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+/*----Footer----*/
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+
